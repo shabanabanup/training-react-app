@@ -1,13 +1,23 @@
 h4{
     color:blue;
-    background-color: aquamarine;
+    border-radius: 40px;
+    background-color: rgb(225, 190, 232);
+   
 }
 h5{
-    color:red;
+    color:rgb(222, 121, 21);
+    text-align: center;
+   
 }
 h6{
-    color:violet;
+    color:rgb(16, 102, 129);
+    text-align: center;
+    border-radius: 50px;
+}
+h3{
+    font-size: 18px;
+    color: rgb(209, 181, 20);
 }
 p{
-    color:black;
+    color:rgb(149, 10, 10);
 }

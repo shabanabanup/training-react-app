@@ -10,27 +10,27 @@ import '../Styles/Functional.css';
 function FunctionalComponent()
 {
  return(
-    <h4><FunctionalComponent4></FunctionalComponent4>I AM THE FIRST FUNCTIONAL COMPONENT AND <FunctionalComponent1></FunctionalComponent1></h4>
+    <h4><FunctionalComponent4></FunctionalComponent4>ADVICE ON HOW TO MAKE WISE INVESTMENTS<FunctionalComponent1></FunctionalComponent1></h4>
  )
 }
 function FunctionalComponent1()
 {
  return(
-    <h5>I AM THE SECOND FUNCTIONAL COMPONENT<FunctionalComponent3></FunctionalComponent3><FunctionalComponent2></FunctionalComponent2></h5>
+    <h5>PRIVATE BANKING <FunctionalComponent3></FunctionalComponent3><FunctionalComponent2></FunctionalComponent2></h5>
  )
 }
 //arrow function
 const FunctionalComponent2=()=>{
     return(
-        <h6>I AM THE THIRD FUNCTIONAL COMPONENT<FunctionalComponent3></FunctionalComponent3></h6>
+        <h6>TIME SAVING TIPS<FunctionalComponent3></FunctionalComponent3></h6>
     )
 }
 //arrow function
 const FunctionalComponent3=()=>{
     return(
         <div>
-        <p>I AM THE FOURTH FUNCTIONAL COMPONENT ENCLOSED IN DIV TAG</p>
-        <p>I AM THE FOURTH FUNCTIONAL COMPONENT ENCLOSED IN DIV TAG</p>
+        <p>OUR FOCUS IS OUR CLIENTS SUCCESS</p>
+        <p>ADVICE ON HOW TO MAKE WISE INVESTMENTS</p>
         </div>
     )
 }
@@ -57,7 +57,7 @@ const FunctionalComponent5=()=>{
         <td>SNO</td>
         <td>NAME</td>
         <td>AGE</td>
-        <td>DESIGNATION</td>
+        <td>REQUIREMENTS</td>
         </React.Fragment>
     )
 }

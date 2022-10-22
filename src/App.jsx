@@ -26,7 +26,9 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
+import HomeComp from './Components/Home';
 //FuncComp - alias - start with an Uppercase
+
 import FuncComp from './Components/Functional';
 import ClassComp from './Components/ClassComponent';
 //Page Not Found Component
@@ -41,16 +43,28 @@ import PageNotFound from './Components/PageNotFound';
 import { Route,Routes } from 'react-router-dom';
 
 function App() {
+  // return (
+  //   <div>
+  //     <NavBar/>
+      
+  //     {/* Welcome to Online Training : <Emp empname="John"></Emp> */}
+  //    <Routes>
+  //     <Route path="funcom" element={<FuncComp/>}></Route>
+  //     <Route path="classcom" element={<ClassComp/>}></Route>
+  //     {/* <Route path="map" element={<Fetch_empdetails/>}></Route>
+  //     <Route path="props" element={<Emp empname="John" empid="100" empdesignation="Admin"></Emp>}></Route> */}
+  //     <Route path="*" element={<PageNotFound/>}></Route>
+  //    </Routes>
+  //   </div>
+  // );
   return (
     <div>
+      {/* <a className="App-link" href="https://dreams-be73a.web.app" target="_blank" rel="noopener noreferrer"> Buy now!!! </a> */}
       <NavBar/>
-      
-      {/* Welcome to Online Training : <Emp empname="John"></Emp> */}
      <Routes>
+      <Route path="home" element={<HomeComp/>}></Route>
       <Route path="funcom" element={<FuncComp/>}></Route>
       <Route path="classcom" element={<ClassComp/>}></Route>
-      {/* <Route path="map" element={<Fetch_empdetails/>}></Route>
-      <Route path="props" element={<Emp empname="John" empid="100" empdesignation="Admin"></Emp>}></Route> */}
       <Route path="*" element={<PageNotFound/>}></Route>
      </Routes>
     </div>

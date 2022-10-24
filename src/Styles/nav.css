@@ -1,4 +1,4 @@
-nav{
+/* nav{
     background-color: gray;
 }
 .nav-item{
@@ -10,4 +10,34 @@ nav{
     font-weight: bolder;
     
     
+} */
+nav{
+    background-color: gray;
+}
+.nav-item{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.nav-link{
+    color:white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:  #dc6226;
+}
+li{
+    list-style: none;  
+}
+.fa{
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.fa:hover{
+    color:  #dc6226;
+    opacity: 1;
+}
+.inline-list{
+    display: flex;
+    justify-content: space-evenly;
 }

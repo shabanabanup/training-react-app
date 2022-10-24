@@ -1,33 +1,3 @@
-// import React from "react";
-// import '../Styles/home.css';
-
-// function caro() {
-//     return (
-//         <>
-//             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-//                 <div class="carousel-indicators">
-//                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" aria-label="Slide 1"></button>
-//                 </div>
-//                 <div className="carousel-inner">
-//                     <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-slider10.jpg"></img>
-//                     <div className="carousel-caption d-none d-md-block">
-//                         <h4>WE MEET YOUR FINANCIAL
-//                             <br></br> INVESTMENT NEEDS</h4>
-//                     </div>
-//                 </div>
-//                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-//                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-//                     <span className="visually-hidden">Previous</span>
-//                 </button>
-//                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-//                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
-//                     <span className="visually-hidden">Next</span>
-//                 </button>
-//             </div>
-//         </>
-//     );
-// }
-// export default caro;
 import React from "react";
 import '../Styles/home.css';
 
@@ -38,7 +8,8 @@ function caro() {
                 <div className="carousel-inner">
                     <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-slider10.jpg"></img>
                     <div className="carousel-caption">
-                        <h4>WE MEET YOUR FINANCIAL INVESTMENT NEEDS</h4>
+                        <h4>WE MEET YOUR FINANCIAL
+                            <br></br> INVESTMENT NEEDS</h4>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
@@ -95,7 +66,7 @@ function caro() {
                     </div>
                 </div>
             </div> 
-            <div className="container1">
+            {/* <div className="container1">
                 <div className="row">
                     <div className="col col-sm-12">
                     <h2 style={{textAlign:"center"}}> ADVICE ON HOW TO MAKE WISE INVESTMENTS </h2>
@@ -103,8 +74,6 @@ function caro() {
                     If you have no experience in investing, or you do not want to risk, and would like to get a reliable tool and a guaranteed source of income, leave it to the professionals.</p>
                     </div>
                 </div>
-            {/* </div>
-            <div className="container"> */}
                 <div className="row">
                     <div className="col col-sm-4">
                         <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice1.jpg"></img>
@@ -137,11 +106,11 @@ function caro() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container2" id="h31">
                 <div className="row">
                     <div className="col col-sm-6" id="col1">
-                        <h3 id="h31">Fresh Investment Solutions!</h3>
+                        <h3 id="h31" style={{textAlign:"center"}}>Fresh Investment Solutions!</h3>
                         <ul>
                             <li>Boutique Discretionary Investment Management & Stockbroking Services</li>
                             <li>Third Party Fund Investments</li>
@@ -152,7 +121,7 @@ function caro() {
                         <button type="button"> LEARN MORE</button>
                     </div>
                     <div className="col col-sm-6" id="col2">
-                        <h3 id="h31">Learning to Save Money</h3>
+                        <h3 id="h31" style={{textAlign:"center"}}>Learning to Save Money</h3>
                         <ul>
                             <li>Investment course</li>
                             <li>Marketing course</li>
@@ -163,6 +132,43 @@ function caro() {
                     </div>
                 </div>
             </div>
+            <div className="container3">
+                <div class="partners-logo">
+                    <div className="row">
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner4.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner5.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner6.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/12/mt-0239-home-partner11.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner2.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card"  id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/12/mt-0239-home-partner13.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 }
